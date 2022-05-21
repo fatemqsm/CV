@@ -968,10 +968,10 @@ section {
     padding: 0 0 10px 0;
   }
   #hero {
-    max-height: 700px;
+    max-height: 550px;
     background: url("../img/hero-bg.jpg") 75% center;
   }
   #hero:before {
-    max-height: 700px;
+    max-height: 550px;
   }
 }
