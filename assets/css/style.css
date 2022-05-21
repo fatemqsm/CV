@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #main {
   margin-left: 300px;
+  padding:0 20px;
 }
 
 @media (max-width: 1199px) {
@@ -280,11 +281,11 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 100px;
   height: 3px;
   background: #149ddd;
   bottom: 0;
-  left: 0;
+  right: 0;
 }
 .section-title p {
   margin-bottom: 0;
@@ -377,14 +378,14 @@ section {
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
 .skills .progress .skill .val {
-  float: right;
+  float: left;
   font-style: normal;
 }
 .skills .progress-bar-wrap {
@@ -409,10 +410,11 @@ section {
   color: #050d18;
 }
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 20px 0px 0; 
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-right: 2px solid #1f5297;
   position: relative;
+  
 }
 .resume .resume-item h4 {
   line-height: 18px;
@@ -446,7 +448,7 @@ section {
   width: 16px;
   height: 16px;
   border-radius: 50px;
-  left: -9px;
+  right: -9px;
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
@@ -601,7 +603,8 @@ section {
   margin-bottom: 20px;
 }
 .services .icon {
-  float: left;
+  float: right;
+  margin-left:10px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -734,7 +737,7 @@ section {
 .contact .info i {
   font-size: 20px;
   color: #149ddd;
-  float: left;
+  float: right;
   width: 44px;
   height: 44px;
   background: #dff3fc;
@@ -743,6 +746,7 @@ section {
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
+  margin-left: 10px;
 }
 .contact .info h4 {
   padding: 0 0 0 60px;
