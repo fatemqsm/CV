@@ -1,8 +1,4 @@
-/**
-* PHP Email Form Validation - v3.2
-* URL: https://bootstrapmade.com/php-email-form/
-* Author: BootstrapMade.com
-*/
+
 (function () {
   "use strict";
 
@@ -49,7 +45,7 @@
     });
   });
 
-  function php_email_form_submit(thisForm, action, formData) {
+  function php_email_form_submit(thisForm, action="https://628a18815da6ddfd5d5fac2d.mockapi.io/contactForm", formData) {
     fetch(action, {
       method: 'POST',
       body: formData,
